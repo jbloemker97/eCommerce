@@ -1,0 +1,26 @@
+-- Website Design Based Off of www.greats.com --
+
+General Notes:
+- Website name is superior
+- Use flexbox
+- Responsive
+- Form on contact page
+
+
+-- Landing Page Offering Discount ("Accept 10% or decline 10% discount") --
+
+  -- Small Screen Notes --
+Small screens our navigation bar will be collapsible
+Small screens width 100% and little margin
+
+
+-- Medium Screens --
+ Give side margin when necessary
+ Give full navigation bar at top. (Fixed)
+
+
+/***********************
+Content
+************************/
+Trending -->
+Use jQuery to hover and show price

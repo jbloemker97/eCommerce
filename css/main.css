@@ -1,0 +1,488 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/**************************
+Nav Bar
+***************************/
+.container-nav {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  border-bottom: 1px solid #D2D5D6;
+  box-shadow: 0 5px 10px grey;
+  position: sticky; /* Check */
+  width: 100%;
+  font-size: 1.2em;
+}
+
+.container-nav img {
+  max-width: 100px;
+  height: auto;
+  border-radius: 100%;
+}
+
+.container-nav ul {
+  list-style: none;
+  padding-right: 30px;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-nav li {
+  margin: 15px;
+}
+
+.container-nav a {
+  text-decoration: none;
+  color: #639BAD;
+}
+
+.container-nav a:hover {
+  color: #7E8182;
+}
+
+/**************************
+Banner
+***************************/
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+.banner {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  background-color: #EBF0F2;
+}
+
+.banner h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 10px;
+  font-size: 0.8em;
+}
+
+/**************************
+Header
+***************************/
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+.header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-image: url("https://unsplash.com/photos/h7rOzTmGxWE/download?force=true");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  min-height: 650px;
+  font-family: "Arimo", sans-serif;
+}
+
+.header h1 {
+  margin-top: 0;
+  padding-top: 100px;
+  color: white;
+  font-weight: 600;
+  font-size: 3em;
+}
+
+.header a {
+  width: 36%;
+  max-width: 200px;
+  padding: 15px;
+  background-color:#639BAD;
+  border: none;
+  margin: auto;
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.header a:hover {
+  color: black;
+}
+
+
+/**************************
+Gender Section
+***************************/
+.container-gender {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-family: "Arimo", sans-serif;
+  justify-content: space-around;
+}
+
+.men {
+  background-color: #5994f7;
+  width: 40%;
+  max-width: 350px;
+  min-height: 170px;
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 0.7em;
+}
+
+.men a {
+  color: white;
+  font-weight: 400;
+}
+
+.women {
+  background-color: #edb8cb;
+  width: 40%;
+  max-width: 350px;
+  min-height: 170px;
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 0.7em;
+}
+
+.women a {
+  color: white;
+  font-weight: 400;
+}
+
+
+
+
+/**************************
+Trending Images
+***************************/
+@import url('https://fonts.googleapis.com/css?family=Lato');
+.container-trending {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+#trendingH1 {
+  font-size: 1.8em;
+  color: #639BAD;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+/* First Horizontal Row */
+.trending-images {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 30%;
+  margin: auto;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.7em;
+}
+
+.trending-images img {
+  width: 100%;
+  height: auto;
+}
+
+/* Second Horizontal Row */
+.container-trending-2 {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.trending-images-2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 30%;
+  margin: auto;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.7em;
+}
+
+.trending-images-2 img {
+  width: 100%;
+  height: auto;
+}
+
+/**************************
+Need Help Section
+***************************/
+.help {
+    background-color: #5994f7;
+    min-height: 250px;
+    margin-top: 5%;
+}
+
+.help h2 {
+  color: white;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.helpIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+  margin: auto;
+}
+
+.helpIcons img {
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.helpIcons a {
+  color: white;
+  text-decoration: none;
+}
+
+.helpIcons a:hover {
+  color: black;
+}
+
+.helpImg {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/**************************
+Footer
+***************************/
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer-ul li {
+  list-style: none;
+  margin: 0 auto;
+}
+
+.footer-ul a:hover {
+  color: black;
+}
+
+.footer-ul a {
+  text-decoration: none;
+  color: grey;
+}
+
+.footer h4 {
+  font-size: 0.9em;
+  padding-top: 3%;
+}
+
+.footer img {
+  max-width: 150px;
+  border-radius: 100%;
+  align-self: center;
+  margin-bottom: 5%;
+  margin-top: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************************
+Media Queries
+***************************/
+
+
+@media (min-width: 492px) {
+  /* Nav Bar */
+  .container-nav ul {
+    flex-direction: row;
+  }
+
+  .container-nav li {
+    padding-top: 125px;
+    margin-top: 50px;;
+    padding-top: 0;
+  }
+
+  /* Gender Section */
+  .men {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .women {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 650px) {
+  /* Nav Bar */
+  .container-nav {
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.3em;
+  }
+
+  .container-nav ul {
+    margin-bottom: 0;
+  }
+
+  .container-nav img {
+    margin-left: 15px;
+  }
+
+  /* Trending Section */
+  .trending-images{
+    font-size: 0.9em;
+  }
+
+  .trending-images-2{
+    font-size: 0.9em;
+  }
+}
+
+@media (min-width: 900px) {
+  .container-nav img {
+    margin-left: 100px;
+  }
+
+  .container-nav ul {
+    margin-right: 100px;
+  }
+
+  /* Trening Section */
+  .trending-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    max-height: 500px;
+    max-width: 1000px;
+  }
+  /* Help Section */
+  .help {
+    margin-top: 10%;
+  }
+}
+
+
+@media (min-width: 1400px) {
+.container-nav img {
+    margin-left: 200px;
+  }
+
+.container-nav ul {
+    margin-left: 200px;
+  }
+
+  /* Gender Section */
+  .men {
+    margin-left: 20%;
+  }
+
+  .women {
+    margin-right: 20%;
+  }
+
+  /* Trending Section */
+  .trending-images img {
+    max-height: 170px;
+  }
+
+  .trending-images-2 img {
+    max-height: 170px;
+  }
+
+  /* Help Section */
+  .helpIcons {
+    padding-bottom: 5%;
+  }
+}
+@media (min-width:1650px) {
+  /* Gender Section */
+  .men {
+    margin-left: 27%;
+  }
+
+  .women {
+    margin-right: 27%;
+  }
+}
